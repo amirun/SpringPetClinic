@@ -30,7 +30,7 @@ pipeline{
         }
         stage("deploy") {
             steps {
-                sh "java -jar /var/lib/jenkins/workspace/PCDeclarativePiple/target/*.jar"
+                sh "java -jar /var/lib/jenkins/workspace/PCDeclarativePipeline/target/*.jar"
             }
         }
     }
